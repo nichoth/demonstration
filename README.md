@@ -18,7 +18,7 @@ Then in the HTML file, we are just linking to our app file:
 
 So this means that links work the way you would expect inside a static directory.
 
-The link to `/tonic.min.esm.js` within our JS file is resolved by esm/the browser.
+The link to `/tonic.min.esm.js` [within our JS file](https://github.com/nichoth/demonstration/blob/95c51529e46abd96b26a17f833d855f163182db0/src/greeting.js#L2) is resolved by esm/the browser.
 
 ## structure
 
