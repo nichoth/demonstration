@@ -7,5 +7,3 @@ class MyGreeting extends Tonic {
 }
 
 Tonic.add(MyGreeting)
-
-// export default MyGreeting

@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "browserify -p esmify src/greeting.js > public/bundle.js && cp src/index.html public",
-    "//build": "cp src/index.html src/greeting.js public",
+    "//build": "browserify -p esmify src/greeting.js > public/bundle.js && cp src/index.html public",
+    "build": "cp src/index.html src/greeting.js public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
