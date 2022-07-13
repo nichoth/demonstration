@@ -1,6 +1,6 @@
 # tonic demonstration
 
-A cool things about this is there is *no build process*.
+A cool thing about this is there is *no build process*.
 
 If you look at `package.json`, the build script is just copying files into a directory that gets served.
 
