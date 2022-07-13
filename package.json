@@ -1,1 +1,28 @@
-{}
+{
+  "name": "demonstration",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify -p esmify src/greeting.js > public/bundle.js && cp src/index.html public",
+    "//build": "cp src/index.html src/greeting.js public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nichoth/demonstration.git"
+  },
+  "author": "nichoth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nichoth/demonstration/issues"
+  },
+  "homepage": "https://github.com/nichoth/demonstration#readme",
+  "description": "",
+  "dependencies": {
+    "@socketsupply/tonic": "^14.1.5"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "esmify": "^2.1.1"
+  }
+}
