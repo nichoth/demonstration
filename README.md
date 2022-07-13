@@ -42,3 +42,11 @@ If you wanted to re-create that, it would mean creating a single tonic component
 -rw-r--r--   1 nick  staff   366B Jul 13 08:26 index.html
 -rw-r--r--   1 nick  staff   7.2K Jul 13 08:26 tonic.min.esm.js
 ```
+
+-------------------------
+
+## links
+
+* [css-tricks](https://css-tricks.com/tonic-component-framework/)
+* [tonicframework.dev](https://tonicframework.dev/)
+* [socketsupply/components](https://github.com/socketsupply/components)
