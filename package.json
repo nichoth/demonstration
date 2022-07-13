@@ -5,7 +5,7 @@
   "scripts": {
     "//build": "browserify -p esmify src/greeting.js > public/bundle.js && cp src/index.html public",
     "start": "npm run build && ecstatic public",
-    "build": "cp src/index.html src/greeting.js node_modules/@socketsupply/tonic/dist/tonic.min.esm.js public",
+    "build": "mkdir -p public && cp src/index.html src/greeting.js node_modules/@socketsupply/tonic/dist/tonic.min.esm.js public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
