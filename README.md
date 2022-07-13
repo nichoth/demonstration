@@ -18,6 +18,8 @@ Then in the HTML file, we are just linking to our app file:
 
 So this means that links work the way you would expect inside a static directory.
 
+The link to `/tonic.min.esm.js` within our JS file is resolved by esm/the browser.
+
 ## structure
 
 [island architecture](https://www.patterns.dev/posts/islands-architecture/)
