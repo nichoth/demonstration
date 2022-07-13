@@ -173,4 +173,5 @@ dist
 
 
 bundle.js
-public/*
+docs/*
+
