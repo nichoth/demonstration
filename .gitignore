@@ -172,5 +172,4 @@ dist
 *.scss.map
 
 bundle.js
-docs/*
 
