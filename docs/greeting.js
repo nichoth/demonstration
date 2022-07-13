@@ -1,5 +1,5 @@
 // import Tonic from '@socketsupply/tonic'
-import Tonic from '/tonic.min.esm.js'
+import Tonic from './tonic.min.esm.js'
 
 class MyGreeting extends Tonic {
     constructor () {
