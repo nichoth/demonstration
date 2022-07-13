@@ -26,6 +26,11 @@ So this means that links work the way you would expect inside a static directory
 
 This would fit well because the markup in the app is once again in HTML. And any interactivity would be contained in a custom HTML element.
 
+----------------
+
+If you look at traditional naïve JS client-side-rendered apps, the application, including all routes, is contained in a single JS file that gets bundled prior to serving.
+
+If you wanted to re-create that, it would mean creating a single tonic component, called `app` or something, that contains all the logic for handling routes and rendering everything.
 
 
 ## file sizes
