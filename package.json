@@ -25,6 +25,7 @@
     "esmify": "^2.1.1"
   },
   "dependencies": {
-    "@socketsupply/tonic": "^14.1.5"
+    "@socketsupply/tonic": "^14.1.5",
+    "tonic-ssr": "^1.2.1"
   }
 }
