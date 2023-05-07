@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run build && ecstatic docs",
-    "build": "mkdir -p docs && cp src/index.html src/greeting.js node_modules/@socketsupply/tonic/dist/tonic.min.esm.js docs",
+    "build": "mkdir -p docs && cp src/index.html src/greeting.js node_modules/@socketsupply/tonic/dist/tonic.min.js docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,7 +24,7 @@
     "esmify": "^2.1.1"
   },
   "dependencies": {
-    "@socketsupply/tonic": "^14.1.5",
+    "@socketsupply/tonic": "^15.1.1",
     "tonic-ssr": "^1.2.1"
   }
 }
