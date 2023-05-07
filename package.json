@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run build && ecstatic docs",
-    "build": "mkdir -p docs && cp src/index.html src/greeting.js node_modules/@socketsupply/tonic/dist/tonic.min.js docs",
+    "build": "mkdir -p docs && rm -rf ./docs/* && cp src/index.html src/greeting.js node_modules/@socketsupply/tonic/dist/tonic.min.js docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
