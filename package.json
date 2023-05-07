@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
-    "//build": "browserify -p esmify src/greeting.js > public/bundle.js && cp src/index.html public",
     "start": "npm run build && ecstatic docs",
     "build": "mkdir -p docs && cp src/index.html src/greeting.js node_modules/@socketsupply/tonic/dist/tonic.min.esm.js docs",
     "test": "echo \"Error: no test specified\" && exit 1"
